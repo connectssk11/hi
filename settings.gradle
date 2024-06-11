@@ -1,0 +1,17 @@
+include "spring-fileserver"
+project(":spring-fileserver").projectDir = new File("spring-fileserver")
+
+include "spring-security"
+project(":spring-security").projectDir = new File("spring-security")
+
+include "spring-security-jwt"
+project(":spring-security-jwt").projectDir = new File("spring-security-jwt")
+
+include "spring-jcasbin"
+project(":spring-jcasbin").projectDir = new File("spring-jcasbin")
+
+include "spring-di"
+project(":spring-di").projectDir = new File("spring-di")
+
+
+
